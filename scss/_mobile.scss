@@ -1,9 +1,11 @@
 // Widescreen
 @include mediaXl {
+
 }
 
 // Desktops & laptops
 @include mediaLg {
+
 }
 
 
@@ -12,12 +14,15 @@
     main {
         align-items: center;
         text-align: center;
+
         .lg-heading {
             line-height: 1;
             margin-bottom: 1rem;
         }
     }
-    ul.menu.nav, div.menu-branding {
+
+
+    ul.menu.nav,div.menu-branding {
         float: none;
         width: 100%;
         min-height: 0;
